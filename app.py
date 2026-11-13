@@ -16,8 +16,8 @@ class TestCalculator(unittest,TestCase):
 
 if __name__ = "__main__":
 print("Student Calculator Application")
-print("Addition of two numbers:",add(20,30))
-print("Subtraction of two numbers:",subtract(30,10))
+print("Addition",add(20,30))
+print("Subtraction of two numbers:",subtract(30,20))
 print("Multiplication:",multiply(5,4))
 print("\n Executing Automated Tests...\n")
 unittest.main(argv=['first-arg-is-ignored'],exit=False)
